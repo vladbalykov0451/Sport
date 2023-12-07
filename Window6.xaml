@@ -1,0 +1,29 @@
+﻿<Window x:Class="Sport.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sport"
+        mc:Ignorable="d"
+        Title="Window6" Height="450" Width="800">
+    <Grid>
+        <Label Content="Регистрация" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Width="128" Height="37" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="121,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="121,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="121,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="595,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="595,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="24" RenderTransformOrigin="0.503,-0.72"/>
+        <TextBox HorizontalAlignment="Left" Margin="595,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="360,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="24" RenderTransformOrigin="0.417,-0.082"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="38,118,0,0" VerticalAlignment="Top" Width="65"/>
+        <Label Content="Эл. почта" HorizontalAlignment="Left" Margin="23,177,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.027,0.387"/>
+        <Label Content="Стаж работы" HorizontalAlignment="Left" Margin="16,236,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="475,120,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Пол" HorizontalAlignment="Left" Margin="507,177,0,0" VerticalAlignment="Top"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Margin="470,234,0,0" VerticalAlignment="Top" Width="106" RenderTransformOrigin="0.295,0.579"/>
+        <Label Content="Доложность" HorizontalAlignment="Left" Margin="260,306,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.655,0.541"/>
+        <Image Height="NaN" Margin="714,0,0,368" Source="/Image1.png" Stretch="Fill" Width="NaN"/>
+        <Button Content="Регистрация" HorizontalAlignment="Center" Margin="0,377,0,0" VerticalAlignment="Top" Height="23" Width="164" Click="Button_Click" Cursor="Hand" Background="#FF76E383"/>
+
+    </Grid>
+</Window>

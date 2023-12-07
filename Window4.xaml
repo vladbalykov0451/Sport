@@ -1,0 +1,46 @@
+﻿<Window x:Class="Sport.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sport"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Label Content="Каталог" HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Image Height="NaN" Margin="72,71,623,259" Source="/Image2.png" Stretch="Fill" Width="NaN"/>
+        <Image Height="NaN" Margin="278,71,417,259" Source="/Image3.png" Stretch="Fill" Width="NaN"/>
+        <Image Height="NaN" Margin="454,71,240,259" Source="/Image5.png" Stretch="Fill" Width="NaN"/>
+        <Image Height="NaN" Margin="626,71,68,259" Source="/Image6.png" Stretch="Fill" Width="NaN"/>
+        <Image Margin="72,240,623,87" Source="/G598Y6.jpg" Stretch="Fill"/>
+        <Image Margin="278,240,417,87" Source="/F937G4.jpg" Stretch="Fill"/>
+        <Image Margin="454,240,240,96" Source="/F746E6.jpg" Stretch="Fill"/>
+        <Image Margin="626,240,68,87" Source="/Image7.png" Stretch="Fill"/>
+        <Label Content="Детская одежда" HorizontalAlignment="Left" Margin="76,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Хоккейная клюшка" HorizontalAlignment="Left" Margin="273,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Детский тренажер" HorizontalAlignment="Left" Margin="451,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Тренажер x-trim" HorizontalAlignment="Left" Margin="629,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Мягкий мат" HorizontalAlignment="Left" Margin="87,338,0,0" VerticalAlignment="Top"/>
+        <Label Content="Набор для тенниса" HorizontalAlignment="Left" Margin="273,338,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.499,0.567"/>
+        <Label Content="Турник" HorizontalAlignment="Left" Margin="482,338,0,0" VerticalAlignment="Top"/>
+        <Label Content="Хоккейные коньки" HorizontalAlignment="Left" Margin="622,338,0,0" VerticalAlignment="Top"/>
+        <Label Content="1699 руб." HorizontalAlignment="Left" Margin="93,199,0,0" VerticalAlignment="Top"/>
+        <Label Content="699 руб." HorizontalAlignment="Left" Margin="303,199,0,0" VerticalAlignment="Top"/>
+        <Label Content="1299 руб." HorizontalAlignment="Left" Margin="476,199,0,0" VerticalAlignment="Top"/>
+        <Label Content="14390 руб." HorizontalAlignment="Left" Margin="645,199,0,0" VerticalAlignment="Top"/>
+        <Label Content="2699 руб." HorizontalAlignment="Left" Margin="94,358,0,0" VerticalAlignment="Top"/>
+        <Label Content="1590 руб." HorizontalAlignment="Left" Margin="300,358,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.536,0.567"/>
+        <Label Content="10499 руб." HorizontalAlignment="Left" Margin="473,358,0,0" VerticalAlignment="Top"/>
+        <Label Content="6990 руб." HorizontalAlignment="Left" Margin="648,358,0,0" VerticalAlignment="Top"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="88,221,0,0" VerticalAlignment="Top" Click="Button_Click" Height="19" Width="73" Cursor="Hand" Background="#FF76E383"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="294,221,0,0" VerticalAlignment="Top" Height="19" Width="73" Click="Button_Click_1" Cursor="Hand" Background="#FF76E383"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="471,221,0,0" VerticalAlignment="Top" Height="19" Width="73" Click="Button_Click_2" Cursor="Hand" Background="#FF76E383"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="643,221,0,0" VerticalAlignment="Top" Height="19" Width="73" Click="Button_Click_3" Cursor="Hand" Background="#FF76E383"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="88,384,0,0" VerticalAlignment="Top" Width="73" Height="19" Click="Button_Click_4" Cursor="Hand" Background="#FF76E383"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="294,384,0,0" VerticalAlignment="Top" Width="73" Height="19" Click="Button_Click_5" Cursor="Hand" Background="#FF76E383"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="471,384,0,0" VerticalAlignment="Top" Width="73" Height="19" Click="Button_Click_6" Cursor="Hand" Background="#FF76E383"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="643,384,0,0" VerticalAlignment="Top" Width="73" Height="19" Click="Button_Click_7" Cursor="Hand" Background="#FF76E383"/>
+        <Image Height="NaN" Margin="714,0,0,368" Source="/Image1.png" Stretch="Fill" Width="NaN"/>
+
+    </Grid>
+</Window>
